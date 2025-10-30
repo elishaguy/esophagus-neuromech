@@ -16,10 +16,6 @@
 %   - Simulation data saved in Results1D_W_C/
 %   - Figures showing spatiotemporal evolution of variables
 %
-% Please cite:
-%
-%
-% 
 % -------------------------------------------------------------------------
 clearvars; close all; clc
 timerightnow = clock;

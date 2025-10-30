@@ -22,8 +22,6 @@
 %   - Simulation data saved in Results1D_W_C/
 %   - Figures showing spatiotemporal evolution of A, E, I, and θ
 %
-% References:
-%   Gjorgjieva, J., et al. (2013). [Add full paper citation if applicable]
 % -------------------------------------------------------------------------
 
 clearvars; close all; clc
