@@ -145,11 +145,11 @@ function ut=pde_1(t,u)
 
         % Compute strain integrals for E and I
         StrainI = 0; StrainE = 0;
-        for k = 1:i
+        for k = 1:(i-2*n)
             StrainI = StrainI + max(0,(u(k) / u(4*n + k)-1-C.alpha_h))*dx;
         end
         
-        for k = i:n
+        for k = (i-2*n):n
             x_k = dx/2 + (k-1)*dx;
             StrainE = StrainE + max(0,(u(k) / u(4*n + k)-1-C.alpha_h))*sigma(x_k,x,0.5,-C.g,-C.xs)*dx;
         end
